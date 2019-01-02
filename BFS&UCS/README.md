@@ -7,7 +7,7 @@ Note if you have both Python 2 and Python 3 installed, you may need to type:
 
     python3 spartanquest.py sjsu.txt dfs
 As you can see below, this is not an efficient way for our mascot to collect the medals.
-
+![Screenshot](https://github.com/Itaru7/AI-ML/blob/master/BFS%26UCS/Screen%20Shot.png)
 Your task is to help Sammy the Spartan find a more efficient solution by implementing:
 
 1. the **breadth-first search graph algorithm** by filling in your code in the function **bfs** in the Python module uninformed_search.py.
