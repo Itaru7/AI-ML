@@ -6,7 +6,9 @@ Your task is to complete the implementation of the multiclass perceptron in the 
 
 1. predict: Predict the label of a given example represented by a feature vector. That label can be a digit (0-9 for the handwritten digits dataset), a species ('Iris-virginica', 'Iris, versicolor', 'Iris, virginica' for the Iris dataset) or some other label for some other classification problem.
 
-2. update_weights: Update the Perceptron weights based on a single training example The methods __init__, init_weights and train in the Perceptron class have been implemented for you.
+2. update_weights: Update the Perceptron weights based on a single training example
+
+The methods __init__, init_weights and train in the Perceptron class have been implemented for you.
 
 The code that preprocesses the data and creates the feature vectors has also been implemented for you (in classify.py, digits.py and iris.py).
 
