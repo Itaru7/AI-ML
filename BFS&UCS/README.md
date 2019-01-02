@@ -23,19 +23,13 @@ The program prints some statistics that measure the efficiency of your solutions
 python spartanquest.py sjsu.txt bfs
 
     Path length: 45
-
     Path cost: 157
-
     Number of nodes expanded: 533 <-- or 507
-
     Processing time: 0.0082 (sec) <-- this will be different on your machine
 
 python spartanquest.py sjsu.txt ucs
 
     Path length: 52
-
     Path cost: 144
-
     Number of nodes expanded: 553
-
     Processing time: 0.0090 (sec) . <-- this will be different on your machine
