@@ -10,7 +10,7 @@ Note that if you have both Python 2 and Python 3 installed, you may need to type
 
 As you can see below, this is not a challenging game to play.
 
-![Screenshot]()
+![Screenshot](https://github.com/Itaru7/AI-ML/blob/master/Adversarial%20search/1.png)
 
 Your task is to implement an AI agent who will play a better game.
 
@@ -23,7 +23,7 @@ You can test your minimax code on a 3x3 Tic Tac Toe as follows:
 
     Even though your agent plays a perfect game and cannot be defeated, it searches the entire tree from the current game state to find the best move. The program prints the number of nodes evaluated with each move. Here are the number of nodes evaluated when I play the following game:
 
-    ![Screenshot]()
+    ![Screenshot](https://github.com/Itaru7/AI-ML/blob/master/Adversarial%20search/2.png)
 
         Number of nodes evaluated so far: 59,704
         Number of nodes evaluated so far: 60,630
@@ -54,7 +54,7 @@ function that has been implemented for you in tictactoe.py (the eval method in G
 
     Here are the number of nodes evaluated when I play the following game:
 
-    ![Screenshot]()
+    ![Screenshot](https://github.com/Itaru7/AI-ML/blob/master/Adversarial%20search/3.png)
 
         Number of nodes evaluated so far: 494,057
         Number of nodes evaluated so far: 819,244
