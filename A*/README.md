@@ -68,7 +68,7 @@ Feel free to implement and use any helper functions to keep your code readable.
 
 Even though you need all the files to test your program, you only need to upload your solution in informed_search.py.
 
-#### IMPORTANT:
+### IMPORTANT:
 
 The various positions in the maze are expressed as a tuple: the first element of the tuple is the row and the second element is the column. The top left position is (0, 0). Rows increase as we move down and columns increase as we move right ­ as shown below.
 ![ScreenShot](https://github.com/Itaru7/AI-ML/blob/master/A*/Screen%20Shot.png)
