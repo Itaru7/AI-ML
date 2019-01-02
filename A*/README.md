@@ -33,14 +33,16 @@ Note that if you run A* with the null heuristic, you should get the same results
 3. A better heuristic to be used when we know for sure that there is only one medal in the quest. Fill in in your code in the function **better_heuristic** in the Python module informed_search.py. A* with this better heuristic
 should find the optimal solution even faster for the quest described in questE.txt: less than 40 nodes expanded vs 326 nodes for ucs and 108 for single_heuristic. My implementation expands 26 nodes. Can you beat it? To get any credit on this question, your heuristic must be admissible and consistent.
 
-	*python spartanquest.py questE.txt astar better_heuristic *
+	*python spartanquest.py questE.txt astar better_heuristic*
+
 		Path length: 12
 		Path cost: 30
 		Number of nodes expanded: 26
 
 4. A more general heuristic to be used when the maze contains an arbitrary number of medals and these medals can be anywhere in the maze. Fill in your code in the function **gen_heuristic** in the Python module informed_search.py. A* with this general heuristic should find the optimal solution faster for the quest described in questF.txt. Note that ucs expands 48,211 nodes for questF.txt. You will be graded based on how many nodes your heuristic expands. My implementation expands 2,427 nodes. Can you beat it?
 
-	*python spartanquest.py questF.txt astar gen_heuristic *
+	*python spartanquest.py questF.txt astar gen_heuristic*
+
 		Path length: 73
 		Path cost: 133
 		Number of nodes expanded: 2,427
@@ -69,3 +71,4 @@ Even though you need all the files to test your program, you only need to upload
 #### IMPORTANT:
 
 The various positions in the maze are expressed as a tuple: the first element of the tuple is the row and the second element is the column. The top left position is (0, 0). Rows increase as we move down and columns increase as we move right ­ as shown below.
+![ScreenShot](https://github.com/Itaru7/AI-ML/blob/master/A*/Screen%20Shot.png)
