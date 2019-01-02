@@ -16,4 +16,5 @@ To see the distribution on the grid, start the game in 'guided' (default) mode:
 		python treasurehunt.py 8 guided
 
 2. The recommend_sensing method in the beliefs.py module. The method returnw the position where we should take the next sonar measurement in the grid. The position should be the most promising unobserved location. If all remaining unobserved locations have a probability of 0, the method should return the unobserved location that is closest to the (observed) location with the highest probability. The recommended location is displayed in purple on the grid ­ as shown in the screenshot below.
+
 ![Screenshot](https://github.com/Itaru7/AI-ML/blob/master/Beliefs/ScreenShot.png)
